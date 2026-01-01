@@ -102,9 +102,22 @@ def update_customer_job_code(tree: etree._Element, code_poste: str) -> bool:
             print("❌ Bloc CustomerReportingRequirements introuvable")
             return False
         
+        # Chercher ExternalOrderNumber pour insérer AVANT
+        external_order = cust_req.find('hr:ExternalOrderNumber', NAMESPACES)
+        
         # CRÉER la balise CustomerJobCode
-        job_code_elem = etree.SubElement(cust_req, '{http://ns.hr-xml.org/2004-08-02}CustomerJobCode')
+        job_code_elem = etree.Element('{http://ns.hr-xml.org/2004-08-02}CustomerJobCode')
         job_code_elem.text = code_poste
+        job_code_elem.tail = '\n          '  # Formatage avec indentation
+        
+        if external_order is not None:
+            # Insérer AVANT ExternalOrderNumber
+            index = list(cust_req).index(external_order)
+            cust_req.insert(index, job_code_elem)
+        else:
+            # Si pas de ExternalOrderNumber, ajouter à la fin
+            cust_req.append(job_code_elem)
+        
         print(f"✅ CustomerJobCode CRÉÉE : '{code_poste}'")
         return True
     
