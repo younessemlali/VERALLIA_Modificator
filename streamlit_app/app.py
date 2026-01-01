@@ -79,7 +79,7 @@ def find_commande_by_number(commandes: list, numero_commande: str) -> dict:
     return None
 
 
-def apply_corrections_multi(xml_content: bytes, commandes_map: dict) -> bytes:
+def apply_corrections_multi(xml_content: bytes, commandes_map: dict) -> tuple:
     """
     Applique les corrections pour plusieurs commandes dans le même XML
     
@@ -88,7 +88,7 @@ def apply_corrections_multi(xml_content: bytes, commandes_map: dict) -> bytes:
         commandes_map: Dict {numero_commande: {codePoste, codeCycle}}
     
     Returns:
-        XML corrigé en bytes
+        (XML corrigé en bytes, nombre de corrections appliquées)
     """
     parser = etree.XMLParser(encoding='iso-8859-1', remove_blank_text=False)
     tree = etree.parse(io.BytesIO(xml_content), parser)
@@ -120,16 +120,33 @@ def apply_corrections_multi(xml_content: bytes, commandes_map: dict) -> bytes:
         # Corriger CustomerJobCode
         job_code_elem = assignment.find('.//hr:CustomerJobCode', ns)
         if job_code_elem is not None:
+            old_value = job_code_elem.text
             job_code_elem.text = code_poste
             corrections_applied += 1
+            print(f"Commande {numero_commande}: CustomerJobCode '{old_value}' → '{code_poste}'")
+        else:
+            # Si la balise n'existe pas, essayer de la créer
+            cust_req = assignment.find('.//hr:CustomerReportingRequirements', ns)
+            if cust_req is not None:
+                # Chercher ou créer CustomerJobCode
+                for child in cust_req:
+                    if 'CustomerJobCode' in child.tag:
+                        child.text = code_poste
+                        corrections_applied += 1
+                        print(f"Commande {numero_commande}: CustomerJobCode modifié → '{code_poste}'")
+                        break
         
         # Corriger Cycle horaire
         staffing_shift = assignment.find('.//hr:StaffingShift[@shiftPeriod="weekly"]', ns)
         if staffing_shift is not None:
             id_value_elem = staffing_shift.find('.//hr:IdValue', ns)
             if id_value_elem is not None:
+                old_name = id_value_elem.get('name', '')
+                old_value = id_value_elem.text
                 id_value_elem.set('name', 'CYCLE')
                 id_value_elem.text = code_cycle
+                corrections_applied += 1
+                print(f"Commande {numero_commande}: Cycle '{old_name}:{old_value}' → 'CYCLE:{code_cycle}'")
     
     # Convertir en bytes avec encodage ISO-8859-1
     output = io.BytesIO()
@@ -140,7 +157,7 @@ def apply_corrections_multi(xml_content: bytes, commandes_map: dict) -> bytes:
         pretty_print=False
     )
     
-    return output.getvalue()
+    return output.getvalue(), corrections_applied
 
 
 # ============================================================================
@@ -300,7 +317,7 @@ if uploaded_file is not None:
                     }
                 
                 # Appliquer les corrections
-                corrected_xml = apply_corrections_multi(xml_content, corrections_map)
+                corrected_xml, nb_corrections = apply_corrections_multi(xml_content, corrections_map)
                 
                 # Validation du XML corrigé
                 is_valid, error_msg = utils.validate_xml(corrected_xml)
@@ -310,7 +327,7 @@ if uploaded_file is not None:
                     st.stop()
                 
                 # Afficher les résultats
-                st.success(f"✅ **{len(commandes_trouvees)} contrats corrigés avec succès !**")
+                st.success(f"✅ **{len(commandes_trouvees)} contrats traités, {nb_corrections} modifications appliquées !**")
                 
                 if commandes_manquantes:
                     st.warning(f"⚠️ {len(commandes_manquantes)} contrats non corrigés (commandes manquantes dans la base)")
