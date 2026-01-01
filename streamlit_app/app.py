@@ -1,7 +1,7 @@
 """
 VERALLIA Modificator - Application Streamlit
 Interface web pour corriger les fichiers XML Osmose
-Version automatique - Détection automatique des commandes
+Version multi-commandes - Traite tous les contrats d'un fichier XML
 """
 
 import streamlit as st
@@ -9,6 +9,8 @@ import requests
 import json
 from datetime import datetime
 import utils
+from lxml import etree
+import io
 
 # ============================================================================
 # CONFIGURATION
@@ -42,23 +44,31 @@ def load_commandes_from_github():
         return []
 
 
-def extract_order_number_from_xml(xml_content: bytes) -> str:
-    """Extrait le numéro de commande du XML"""
+def extract_all_order_numbers_from_xml(xml_content: bytes) -> list:
+    """Extrait TOUS les numéros de commande du XML avec leurs positions"""
     try:
-        tree = utils.parse_xml(xml_content)
+        parser = etree.XMLParser(encoding='iso-8859-1', remove_blank_text=False)
+        tree = etree.parse(io.BytesIO(xml_content), parser)
         root = tree.getroot()
         
-        # Chercher OrderId
+        # Chercher tous les OrderId
         ns = {'hr': 'http://ns.hr-xml.org/2004-08-02'}
-        order_elem = root.find('.//hr:OrderId/hr:IdValue', ns)
+        order_elements = root.findall('.//hr:OrderId/hr:IdValue', ns)
         
-        if order_elem is not None and order_elem.text:
-            return order_elem.text.strip()
+        orders = []
+        seen = set()
         
-        return None
+        for elem in order_elements:
+            if elem.text and elem.text.strip():
+                numero = elem.text.strip()
+                if numero not in seen:
+                    orders.append(numero)
+                    seen.add(numero)
+        
+        return orders
     except Exception as e:
-        st.error(f"Erreur extraction numéro commande : {str(e)}")
-        return None
+        st.error(f"Erreur extraction numéros commande : {str(e)}")
+        return []
 
 
 def find_commande_by_number(commandes: list, numero_commande: str) -> dict:
@@ -69,13 +79,77 @@ def find_commande_by_number(commandes: list, numero_commande: str) -> dict:
     return None
 
 
+def apply_corrections_multi(xml_content: bytes, commandes_map: dict) -> bytes:
+    """
+    Applique les corrections pour plusieurs commandes dans le même XML
+    
+    Args:
+        xml_content: Contenu XML original
+        commandes_map: Dict {numero_commande: {codePoste, codeCycle}}
+    
+    Returns:
+        XML corrigé en bytes
+    """
+    parser = etree.XMLParser(encoding='iso-8859-1', remove_blank_text=False)
+    tree = etree.parse(io.BytesIO(xml_content), parser)
+    root = tree.getroot()
+    
+    ns = {'hr': 'http://ns.hr-xml.org/2004-08-02'}
+    
+    corrections_applied = 0
+    
+    # Trouver tous les blocs Assignment
+    assignments = root.findall('.//hr:Assignment', ns)
+    
+    for assignment in assignments:
+        # Trouver le OrderId de ce contrat
+        order_elem = assignment.find('.//hr:OrderId/hr:IdValue', ns)
+        if order_elem is None or not order_elem.text:
+            continue
+        
+        numero_commande = order_elem.text.strip()
+        
+        # Vérifier si on a les données pour cette commande
+        if numero_commande not in commandes_map:
+            continue
+        
+        commande_data = commandes_map[numero_commande]
+        code_poste = commande_data['codePoste']
+        code_cycle = commande_data['codeCycle']
+        
+        # Corriger CustomerJobCode
+        job_code_elem = assignment.find('.//hr:CustomerJobCode', ns)
+        if job_code_elem is not None:
+            job_code_elem.text = code_poste
+            corrections_applied += 1
+        
+        # Corriger Cycle horaire
+        staffing_shift = assignment.find('.//hr:StaffingShift[@shiftPeriod="weekly"]', ns)
+        if staffing_shift is not None:
+            id_value_elem = staffing_shift.find('.//hr:IdValue', ns)
+            if id_value_elem is not None:
+                id_value_elem.set('name', 'CYCLE')
+                id_value_elem.text = code_cycle
+    
+    # Convertir en bytes avec encodage ISO-8859-1
+    output = io.BytesIO()
+    tree.write(
+        output,
+        encoding='iso-8859-1',
+        xml_declaration=True,
+        pretty_print=False
+    )
+    
+    return output.getvalue()
+
+
 # ============================================================================
 # INTERFACE
 # ============================================================================
 
 # En-tête
 st.title("🔧 VERALLIA Modificator")
-st.markdown("**Correction automatique des fichiers XML Osmose pour Pixid**")
+st.markdown("**Correction automatique multi-commandes des fichiers XML Osmose pour Pixid**")
 st.divider()
 
 # Informations
@@ -87,8 +161,8 @@ with st.expander("ℹ️ À propos", expanded=False):
     1. **CustomerJobCode** : Code du poste de travail (ex: `4FACO2`)
     2. **Cycle horaire** : Code du cycle de travail (ex: `VA EQUIPE D 5X8`)
     
-    **Mode automatique** : Uploadez simplement votre fichier XML, l'application
-    détecte automatiquement le numéro de commande et applique les corrections.
+    **Mode multi-commandes** : L'application traite automatiquement TOUS les contrats
+    présents dans un même fichier XML, sans intervention manuelle.
     """)
 
 # Chargement des commandes
@@ -116,7 +190,7 @@ st.header("📁 Charger le fichier XML Osmose")
 uploaded_file = st.file_uploader(
     "Sélectionnez le fichier XML à corriger",
     type=['xml'],
-    help="Fichier XML généré par Osmose (encodage ISO-8859-1)"
+    help="Fichier XML généré par Osmose (encodage ISO-8859-1). Peut contenir plusieurs contrats."
 )
 
 if uploaded_file is not None:
@@ -134,110 +208,75 @@ if uploaded_file is not None:
     st.success(f"✅ Fichier chargé : `{original_filename}`")
     
     # ========================================================================
-    # DÉTECTION AUTOMATIQUE DE LA COMMANDE
+    # DÉTECTION AUTOMATIQUE DE TOUTES LES COMMANDES
     # ========================================================================
     
-    st.header("🔍 Détection automatique de la commande")
+    st.header("🔍 Analyse du fichier XML")
     
-    with st.spinner("Analyse du fichier XML..."):
-        # Extraire le numéro de commande
-        numero_commande = extract_order_number_from_xml(xml_content)
+    with st.spinner("Recherche de toutes les commandes dans le fichier..."):
+        # Extraire tous les numéros de commande
+        all_orders = extract_all_order_numbers_from_xml(xml_content)
         
-        if not numero_commande:
-            st.error("❌ Impossible de détecter le numéro de commande dans le XML")
+        if not all_orders:
+            st.error("❌ Aucun numéro de commande trouvé dans le XML")
             st.stop()
         
-        st.info(f"📋 Numéro de commande détecté : **{numero_commande}**")
+        st.info(f"📋 **{len(all_orders)} commandes détectées** dans le fichier XML")
         
-        # Chercher la commande correspondante
-        commande = find_commande_by_number(commandes, numero_commande)
+        # Chercher les correspondances
+        commandes_trouvees = {}
+        commandes_manquantes = []
         
-        if not commande:
-            st.error(f"❌ Commande **{numero_commande}** introuvable dans la base de données")
-            st.warning("""
-            **Solutions possibles :**
-            1. Vérifiez que l'email de commande est dans votre label Gmail VERALLIA
-            2. Relancez le script Google Apps Script pour extraire cette commande
-            3. Attendez quelques minutes et actualisez la base de commandes
-            """)
-            st.stop()
-        
-        st.success(f"✅ Commande **{numero_commande}** trouvée dans la base !")
+        for numero in all_orders:
+            commande = find_commande_by_number(commandes, numero)
+            if commande:
+                commandes_trouvees[numero] = {
+                    'codePoste': commande.get('codePoste'),
+                    'codeCycle': commande.get('codeCycle'),
+                    'data': commande
+                }
+            else:
+                commandes_manquantes.append(numero)
     
-    # Affichage des détails de la commande
-    with st.expander("📋 Détails de la commande détectée", expanded=True):
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            st.markdown(f"**Numéro de commande :** `{commande.get('numeroCommande', 'N/A')}`")
-            st.markdown(f"**Numéro de contrat :** `{commande.get('numeroContrat', 'N/A')}`")
-            st.markdown(f"**Client :** `{commande.get('client', 'N/A')}`")
-            st.markdown(f"**Qualification :** `{commande.get('qualification', 'N/A')}`")
-        
-        with col2:
-            st.markdown(f"**Code poste :** `{commande.get('codePoste', 'N/A')}`")
-            st.markdown(f"**Code cycle :** `{commande.get('codeCycle', 'N/A')}`")
-            st.markdown(f"**Date début :** `{commande.get('dateDebut', 'N/A')}`")
-            st.markdown(f"**Extraction :** `{commande.get('dateExtraction', 'N/A')}`")
-    
-    # Extraction des informations actuelles du XML
-    try:
-        tree = utils.parse_xml(xml_content)
-        current_info = utils.get_contract_info(tree)
-        
-        with st.expander("🔍 Informations actuelles du XML", expanded=False):
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                st.markdown(f"**Numéro contrat :** `{current_info['numeroContrat']}`")
-                st.markdown(f"**Ressource :** `{current_info['ressource']}`")
-            
-            with col2:
-                st.markdown(f"**CustomerJobCode :** `{current_info['customerJobCodeActuel'] or '❌ VIDE'}`")
-                cycle_name = current_info['cycleHoraireActuel']['name']
-                cycle_value = current_info['cycleHoraireActuel']['value']
-                st.markdown(f"**Cycle (name) :** `{cycle_name or '❌ VIDE'}`")
-                st.markdown(f"**Cycle (value) :** `{cycle_value or '❌ VIDE'}`")
-    
-    except Exception as e:
-        st.error(f"Erreur lecture XML : {str(e)}")
-        st.stop()
-    
-    st.divider()
-    
-    # ========================================================================
-    # APERÇU DES MODIFICATIONS
-    # ========================================================================
-    
-    st.header("🔄 Aperçu des modifications")
-    
-    code_poste = commande.get('codePoste', '')
-    code_cycle = commande.get('codeCycle', '')
-    
-    if not code_poste or not code_cycle:
-        st.error("❌ Données manquantes dans la commande détectée")
-        st.stop()
-    
-    # Tableau de comparaison
-    col1, col2, col3 = st.columns(3)
+    # Affichage des résultats
+    col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown("### 📄 Champ")
-        st.markdown("**CustomerJobCode**")
-        st.markdown("**Cycle (name)**")
-        st.markdown("**Cycle (value)**")
+        st.metric(
+            "✅ Commandes trouvées",
+            len(commandes_trouvees),
+            f"sur {len(all_orders)} total"
+        )
     
     with col2:
-        st.markdown("### ❌ Avant")
-        st.markdown(f"`{current_info['customerJobCodeActuel'] or 'VIDE'}`")
-        st.markdown(f"`{current_info['cycleHoraireActuel']['name'] or 'MODELE'}`")
-        st.markdown(f"`{current_info['cycleHoraireActuel']['value'] or 'BH'}`")
+        st.metric(
+            "❌ Commandes manquantes",
+            len(commandes_manquantes),
+            f"sur {len(all_orders)} total"
+        )
     
-    with col3:
-        st.markdown("### ✅ Après")
-        st.markdown(f"`{code_poste}`")
-        st.markdown(f"`CYCLE`")
-        st.markdown(f"`{code_cycle}`")
+    # Détails des commandes trouvées
+    if commandes_trouvees:
+        with st.expander(f"✅ Détails des {len(commandes_trouvees)} commandes trouvées", expanded=True):
+            for numero, info in commandes_trouvees.items():
+                st.markdown(f"**Commande {numero}** → Poste: `{info['codePoste']}` | Cycle: `{info['codeCycle']}`")
+    
+    # Détails des commandes manquantes
+    if commandes_manquantes:
+        with st.expander(f"⚠️ Commandes manquantes ({len(commandes_manquantes)})", expanded=False):
+            st.warning("Ces commandes ne seront PAS corrigées car elles n'existent pas dans la base de données :")
+            for numero in commandes_manquantes:
+                st.markdown(f"- Commande **{numero}**")
+            st.info("""
+            **Pour corriger ces commandes :**
+            1. Vérifiez que les emails sont dans votre label Gmail VERALLIA
+            2. Relancez le script Google Apps Script
+            3. Actualisez la base de commandes et rechargez le fichier XML
+            """)
+    
+    if not commandes_trouvees:
+        st.error("❌ Aucune commande trouvée dans la base de données. Impossible de corriger le fichier.")
+        st.stop()
     
     st.divider()
     
@@ -247,15 +286,21 @@ if uploaded_file is not None:
     
     st.header("⚡ Correction automatique")
     
-    if st.button("🔧 Appliquer les corrections", type="primary", use_container_width=True):
-        with st.spinner("Correction en cours..."):
+    st.info(f"🔧 **{len(commandes_trouvees)} contrats** seront corrigés dans ce fichier XML")
+    
+    if st.button("🚀 Appliquer les corrections", type="primary", use_container_width=True):
+        with st.spinner(f"Correction de {len(commandes_trouvees)} contrats en cours..."):
             try:
+                # Préparer le mapping pour les corrections
+                corrections_map = {}
+                for numero, info in commandes_trouvees.items():
+                    corrections_map[numero] = {
+                        'codePoste': info['codePoste'],
+                        'codeCycle': info['codeCycle']
+                    }
+                
                 # Appliquer les corrections
-                corrected_xml, stats = utils.apply_corrections(
-                    xml_content,
-                    code_poste,
-                    code_cycle
-                )
+                corrected_xml = apply_corrections_multi(xml_content, corrections_map)
                 
                 # Validation du XML corrigé
                 is_valid, error_msg = utils.validate_xml(corrected_xml)
@@ -265,25 +310,16 @@ if uploaded_file is not None:
                     st.stop()
                 
                 # Afficher les résultats
-                st.success("✅ Corrections appliquées avec succès !")
+                st.success(f"✅ **{len(commandes_trouvees)} contrats corrigés avec succès !**")
                 
-                col1, col2 = st.columns(2)
-                with col1:
-                    st.metric("CustomerJobCode", "✅ Modifié" if stats['customerJobCode'] else "⚠️ Inchangé")
-                with col2:
-                    st.metric("Cycle horaire", "✅ Modifié" if stats['cycleHoraire'] else "⚠️ Inchangé")
-                
-                # Comparaison détaillée
-                comparison = utils.compare_xml(xml_content, corrected_xml)
-                
-                with st.expander("📊 Comparaison détaillée", expanded=False):
-                    st.json(comparison)
+                if commandes_manquantes:
+                    st.warning(f"⚠️ {len(commandes_manquantes)} contrats non corrigés (commandes manquantes dans la base)")
                 
                 # Bouton de téléchargement
                 st.download_button(
-                    label="📥 Télécharger le XML corrigé",
+                    label=f"📥 Télécharger le XML corrigé ({len(commandes_trouvees)} contrats)",
                     data=corrected_xml,
-                    file_name=original_filename,  # MÊME NOM, pas de suffixe
+                    file_name=original_filename,
                     mime="application/xml",
                     type="primary",
                     use_container_width=True
@@ -297,7 +333,7 @@ if uploaded_file is not None:
                 st.exception(e)
 
 else:
-    st.info("👆 Uploadez votre fichier XML pour démarrer le traitement automatique")
+    st.info("👆 Uploadez votre fichier XML pour démarrer le traitement automatique multi-commandes")
 
 # ============================================================================
 # FOOTER
@@ -306,6 +342,6 @@ else:
 st.divider()
 st.markdown("""
 <div style='text-align: center; color: gray; font-size: 0.8em;'>
-    VERALLIA Modificator v2.0 (Mode Automatique) | Randstad France - Intégration Pixid
+    VERALLIA Modificator v3.0 (Mode Multi-Commandes) | Randstad France - Intégration Pixid
 </div>
 """, unsafe_allow_html=True)
