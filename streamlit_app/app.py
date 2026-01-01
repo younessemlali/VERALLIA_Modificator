@@ -129,9 +129,22 @@ def apply_corrections_multi(xml_content: bytes, commandes_map: dict) -> tuple:
             # La balise n'existe pas, il faut la CRÉER
             cust_req = assignment.find('.//hr:CustomerReportingRequirements', ns)
             if cust_req is not None:
+                # Chercher ExternalOrderNumber pour insérer AVANT
+                external_order = cust_req.find('hr:ExternalOrderNumber', ns)
+                
                 # CRÉER la balise CustomerJobCode
-                job_code_elem = etree.SubElement(cust_req, '{http://ns.hr-xml.org/2004-08-02}CustomerJobCode')
+                job_code_elem = etree.Element('{http://ns.hr-xml.org/2004-08-02}CustomerJobCode')
                 job_code_elem.text = code_poste
+                job_code_elem.tail = '\n          '  # Formatage avec indentation
+                
+                if external_order is not None:
+                    # Insérer AVANT ExternalOrderNumber
+                    index = list(cust_req).index(external_order)
+                    cust_req.insert(index, job_code_elem)
+                else:
+                    # Si pas de ExternalOrderNumber, ajouter à la fin
+                    cust_req.append(job_code_elem)
+                
                 corrections_applied += 1
                 print(f"Commande {numero_commande}: CustomerJobCode CRÉÉE → '{code_poste}'")
         
