@@ -77,7 +77,7 @@ def get_contract_info(tree: etree._Element) -> dict:
 
 def update_customer_job_code(tree: etree._Element, code_poste: str) -> bool:
     """
-    Met à jour la balise <CustomerJobCode>
+    Met à jour ou crée la balise <CustomerJobCode>
     
     Args:
         tree: Arbre XML
@@ -92,10 +92,23 @@ def update_customer_job_code(tree: etree._Element, code_poste: str) -> bool:
     job_code_elem = root.find('.//hr:CustomerJobCode', NAMESPACES)
     
     if job_code_elem is None:
-        print("⚠️ Balise CustomerJobCode introuvable")
-        return False
+        # La balise n'existe pas, il faut la créer
+        print("⚠️ Balise CustomerJobCode introuvable, création...")
+        
+        # Chercher le bloc CustomerReportingRequirements
+        cust_req = root.find('.//hr:CustomerReportingRequirements', NAMESPACES)
+        
+        if cust_req is None:
+            print("❌ Bloc CustomerReportingRequirements introuvable")
+            return False
+        
+        # Créer la balise CustomerJobCode
+        job_code_elem = etree.SubElement(cust_req, '{http://ns.hr-xml.org/2004-08-02}CustomerJobCode')
+        job_code_elem.text = code_poste
+        print(f"✅ CustomerJobCode créée : '{code_poste}'")
+        return True
     
-    # Mettre à jour la valeur
+    # La balise existe, mettre à jour la valeur
     old_value = job_code_elem.text
     job_code_elem.text = code_poste
     
