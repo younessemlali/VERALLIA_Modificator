@@ -45,7 +45,7 @@ def load_commandes_from_github():
 
 
 def extract_all_order_numbers_from_xml(xml_content: bytes) -> list:
-    """Extrait TOUS les numéros de commande du XML avec leurs positions"""
+    """Extrait TOUS les numéros de commande du XML"""
     try:
         parser = etree.XMLParser(encoding='iso-8859-1', remove_blank_text=False)
         tree = etree.parse(io.BytesIO(xml_content), parser)
@@ -120,21 +120,20 @@ def apply_corrections_multi(xml_content: bytes, commandes_map: dict) -> tuple:
         # Corriger CustomerJobCode
         job_code_elem = assignment.find('.//hr:CustomerJobCode', ns)
         if job_code_elem is not None:
+            # La balise existe déjà, mettre à jour
             old_value = job_code_elem.text
             job_code_elem.text = code_poste
             corrections_applied += 1
             print(f"Commande {numero_commande}: CustomerJobCode '{old_value}' → '{code_poste}'")
         else:
-            # Si la balise n'existe pas, essayer de la créer
+            # La balise n'existe pas, il faut la CRÉER
             cust_req = assignment.find('.//hr:CustomerReportingRequirements', ns)
             if cust_req is not None:
-                # Chercher ou créer CustomerJobCode
-                for child in cust_req:
-                    if 'CustomerJobCode' in child.tag:
-                        child.text = code_poste
-                        corrections_applied += 1
-                        print(f"Commande {numero_commande}: CustomerJobCode modifié → '{code_poste}'")
-                        break
+                # CRÉER la balise CustomerJobCode
+                job_code_elem = etree.SubElement(cust_req, '{http://ns.hr-xml.org/2004-08-02}CustomerJobCode')
+                job_code_elem.text = code_poste
+                corrections_applied += 1
+                print(f"Commande {numero_commande}: CustomerJobCode CRÉÉE → '{code_poste}'")
         
         # Corriger Cycle horaire
         staffing_shift = assignment.find('.//hr:StaffingShift[@shiftPeriod="weekly"]', ns)
