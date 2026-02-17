@@ -35,7 +35,11 @@ def load_commandes_from_github():
     try:
         response = requests.get(GITHUB_RAW_URL, timeout=10)
         if response.status_code == 200:
-            return json.loads(response.text)
+            data = json.loads(response.text)
+            # Filtrer les entrées null ou invalides
+            if isinstance(data, list):
+                return [c for c in data if c is not None and isinstance(c, dict)]
+            return []
         else:
             st.error(f"Erreur chargement GitHub: {response.status_code}")
             return []
@@ -74,6 +78,8 @@ def extract_all_order_numbers_from_xml(xml_content: bytes) -> list:
 def find_commande_by_number(commandes: list, numero_commande: str) -> dict:
     """Trouve une commande par son numéro"""
     for commande in commandes:
+        if commande is None:
+            continue
         if commande.get('numeroCommande') == numero_commande:
             return commande
     return None
