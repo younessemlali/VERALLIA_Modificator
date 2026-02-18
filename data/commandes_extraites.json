@@ -14330,5 +14330,47 @@
     "emailId": "19c6df6d6d1d5ac4",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "LA EQUIPE C 5X8",
+    "qualification": "626b/6FACO155 CONDUCTEUR MECANICIEN INTERIM-6FACO-155",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-02-18 11:39:35",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6FACO155/CONDUCTEUR MECANICIEN INTERIM-6FACO-155 - Code Postal : 01150",
+    "emailId": "19c70d156032d488",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "LA EQUIPE D 5X8",
+    "qualification": "626b/6FACO155 CONDUCTEUR MECANICIEN INTERIM-6FACO-155",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-02-18 11:39:34",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6FACO155/CONDUCTEUR MECANICIEN INTERIM-6FACO-155 - Code Postal : 01150",
+    "emailId": "19c71082b89292fc",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "LA EQUIPE C 5X8",
+    "qualification": "626b/6FACO165 CONDUCTEUR MECANICIEN INTERIM-6FACO-165.1",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-02-18 11:39:33",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6FACO165/CONDUCTEUR MECANICIEN INTERIM-6FACO-165.1 - Code Postal : 01150",
+    "emailId": "19c70b9adadb4ef4",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
