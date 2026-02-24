@@ -14946,5 +14946,19 @@
     "emailId": "19c88ea1a0da7132",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CARISTE",
+    "codeCycle": "OUVRIER 36H45 8H/12H",
+    "qualification": "652a/4SACH CARISTE JOUR-4SACH",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-02-24 06:40:51",
+    "emailSubject": "PIXID - Agence n?: SOI-SOI - SOISSONS - Consultation terminee - VERALLIA France/Usine de Vauxrot - Qualification: 652a/4SACH/CARISTE JOUR-4SACH - Code Postal : 02880",
+    "emailId": "19c8e2a33c646dd1",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
