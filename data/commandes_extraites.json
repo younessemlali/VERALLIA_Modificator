@@ -15338,5 +15338,47 @@
     "emailId": "19c9b209374cd1a4",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001220",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE D 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "27/02/2026",
+    "dateExtraction": "2026-02-26 11:48:13",
+    "emailSubject": "PIXID - modification de  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "19c9ba2a2ecc6e5b",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "000580",
+    "numeroContrat": null,
+    "codePoste": "6FACO165",
+    "codeCycle": "LA EQUIPE A 5X8",
+    "qualification": "626b/6FACO165 CONDUCTEUR MECANICIEN INTERIM-6FACO-165.1",
+    "client": "VERALLIA",
+    "dateDebut": "28/02/2026",
+    "dateExtraction": "2026-02-26 16:37:31",
+    "emailSubject": "PIXID - modification de  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6FACO165/CONDUCTEUR MECANICIEN INTERIM-6FACO-165.1 - Code Postal: 01150",
+    "emailId": "19c9b8cad1be89de",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "000578",
+    "numeroContrat": null,
+    "codePoste": "6FACO165",
+    "codeCycle": "LA EQUIPE A 5X8",
+    "qualification": "626b/6FACO165 CONDUCTEUR MECANICIEN INTERIM-6FACO-165.1",
+    "client": "VERALLIA",
+    "dateDebut": "28/02/2026",
+    "dateExtraction": "2026-02-26 16:37:02",
+    "emailSubject": "PIXID - modification de  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6FACO165/CONDUCTEUR MECANICIEN INTERIM-6FACO-165.1 - Code Postal: 01150",
+    "emailId": "19c9ba0c1949037a",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
