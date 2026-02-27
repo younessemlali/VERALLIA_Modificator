@@ -15464,5 +15464,19 @@
     "emailId": "19c9e4d772520f84",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001231",
+    "numeroContrat": null,
+    "codePoste": "4MUAJP",
+    "codeCycle": "VAUXROT 15H21",
+    "qualification": "652a/4MUAJP OUVRIER D ENTRETIEN-4MUAJP",
+    "client": "VERALLIA",
+    "dateDebut": "01/03/2026",
+    "dateExtraction": "2026-02-27 15:46:21",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 652a/4MUAJP/OUVRIER D ENTRETIEN-4MUAJP - Code Postal: 02880",
+    "emailId": "19c9fbd8ce11e09a",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
