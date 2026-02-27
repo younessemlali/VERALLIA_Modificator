@@ -15478,5 +15478,19 @@
     "emailId": "19c9fbd8ce11e09a",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "LA EQUIPE E 5X8",
+    "qualification": "626b/6FACO155 CONDUCTEUR MECANICIEN INTERIM-6FACO-155",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-02-27 13:37:03",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6FACO155/CONDUCTEUR MECANICIEN INTERIM-6FACO-155 - Code Postal : 01150",
+    "emailId": "19c9fe5ed7cb6204",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
