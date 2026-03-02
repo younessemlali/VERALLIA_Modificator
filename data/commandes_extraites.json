@@ -15520,5 +15520,61 @@
     "emailId": "19ca0ba4c04e5c26",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001211",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE C 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "03/03/2026",
+    "dateExtraction": "2026-03-02 12:32:59",
+    "emailSubject": "PIXID - modification de  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "19cae90d7441ecb4",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001234",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE D 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "28/02/2026",
+    "dateExtraction": "2026-03-02 08:49:09",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "19cad85d6d446230",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001235",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE C 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "01/03/2026",
+    "dateExtraction": "2026-03-02 08:52:12",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "19cad88a84f25365",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001239",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE C 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "02/03/2026",
+    "dateExtraction": "2026-03-02 12:39:18",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "19cae5f6a9bf552b",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
