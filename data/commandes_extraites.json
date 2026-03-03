@@ -15772,5 +15772,19 @@
     "emailId": "19cb4760ceb5b028",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "OUVRIER",
+    "codeCycle": "OUVRIER 36H45 7H/12H",
+    "qualification": "652a/4MUAJP OUVRIER D ENTRETIEN-4MUAJP",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-03-03 17:09:12",
+    "emailSubject": "PIXID - Agence n?: SOI-SOI - SOISSONS - Consultation terminee - VERALLIA France/Usine de Vauxrot - Qualification: 652a/4MUAJP/OUVRIER D ENTRETIEN-4MUAJP - Code Postal : 02880",
+    "emailId": "19cb58fe417913a9",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
