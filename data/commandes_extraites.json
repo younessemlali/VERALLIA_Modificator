@@ -17186,5 +17186,19 @@
     "emailId": "19cd7318681222d8",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000678",
+    "numeroContrat": null,
+    "codePoste": "6FACO155",
+    "codeCycle": "LA EQUIPE D 5X8",
+    "qualification": "626b/6FACO155 CONDUCTEUR MECANICIEN INTERIM-6FACO-155",
+    "client": "VERALLIA",
+    "dateDebut": "12/03/2026",
+    "dateExtraction": "2026-03-10 18:11:56",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6FACO155/CONDUCTEUR MECANICIEN INTERIM-6FACO-155 - Code Postal: 01150",
+    "emailId": "19cd8bbef97e31c7",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
