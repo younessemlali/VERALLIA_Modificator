@@ -17970,5 +17970,19 @@
     "emailId": "19d07047d95c9520",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001939",
+    "numeroContrat": null,
+    "codePoste": "2FCOM",
+    "codeCycle": "CO EQUIPE B 5X8",
+    "qualification": "626b/2FCOM CONDUCTEUR MECANICIEN-2FCOM",
+    "client": "VERALLIA",
+    "dateDebut": "21/03/2026",
+    "dateExtraction": "2026-03-19 14:46:46",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Cognac - Agence n? ZD - Qualification: 626b/2FCOM/CONDUCTEUR MECANICIEN-2FCOM - Code Postal: 16103",
+    "emailId": "19d0788449b95827",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
