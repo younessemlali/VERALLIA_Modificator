@@ -18194,5 +18194,33 @@
     "emailId": "19d1ecb54ed1a53d",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001367",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE C 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "25/03/2026",
+    "dateExtraction": "2026-03-24 13:49:31",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "19d200642f9bf330",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "000793",
+    "numeroContrat": null,
+    "codePoste": "6OPCA",
+    "codeCycle": "LA EQUIPE B 5X8",
+    "qualification": "626b/6OPCA155 OPERATEUR COND AUTOMATIQUE-6OPCA-155",
+    "client": "VERALLIA",
+    "dateDebut": "25/03/2026",
+    "dateExtraction": "2026-03-24 12:17:33",
+    "emailSubject": "PIXID - modification de  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6OPCA155/OPERATEUR COND AUTOMATIQUE-6OPCA-155 - Code Postal: 01150",
+    "emailId": "19d1fee9a75d65b0",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
