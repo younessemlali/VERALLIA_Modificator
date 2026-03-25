@@ -18264,5 +18264,19 @@
     "emailId": "19d2563b277ef754",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000807",
+    "numeroContrat": null,
+    "codePoste": "6EVFC",
+    "codeCycle": "LAGNIEU 16H15",
+    "qualification": "653a/6EVFC165 FONDEUR",
+    "client": "VERALLIA",
+    "dateDebut": "23/03/2026",
+    "dateExtraction": "2026-03-25 18:04:45",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 653a/6EVFC165/FONDEUR - Code Postal: 01150",
+    "emailId": "19d2663fe9256637",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
