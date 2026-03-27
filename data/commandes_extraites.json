@@ -18432,5 +18432,33 @@
     "emailId": "19d2e5a13d60e732",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000672",
+    "numeroContrat": null,
+    "codePoste": "006",
+    "codeCycle": null,
+    "qualification": "652a/006 Cariste en prestation logistique",
+    "client": "333583466",
+    "dateDebut": "01/04/2026",
+    "dateExtraction": "2026-03-27 09:54:26",
+    "emailSubject": "PIXID -  Commande - KUEHNE + NAGEL GROUP/C4  LAGNIEU - Agence n? TLO - Qualification: 652a/006/Cariste en prestation logistique - Code Postal: 01151",
+    "emailId": "19d2ed4c232487cc",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001383",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE A 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "30/03/2026",
+    "dateExtraction": "2026-03-27 09:51:47",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "19d2ecbab0f7a6b0",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
