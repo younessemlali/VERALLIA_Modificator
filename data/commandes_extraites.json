@@ -19034,5 +19034,19 @@
     "emailId": "19d53b1371ad9d09",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "VA EQUIPE D 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-04-04 06:19:38",
+    "emailSubject": "PIXID - Agence n?: SOI-SOI - SOISSONS - Consultation terminee - VERALLIA France/Usine de Vauxrot - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal : 02880",
+    "emailId": "19d58ef21381eef8",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
