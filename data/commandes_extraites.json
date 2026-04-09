@@ -19440,5 +19440,47 @@
     "emailId": "19d7180c3450a5bc",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001461",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE E 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "16/04/2026",
+    "dateExtraction": "2026-04-09 10:10:34",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "19d71c9f9b177c59",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "CO EQUIPE D 5X8",
+    "qualification": "626b/2FCOM CONDUCTEUR MECANICIEN-2FCOM",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-04-09 11:27:49",
+    "emailSubject": "PIXID - Agence n?: ZD-ZD - Randstad Cognac - Consultation terminee - VERALLIA France/Usine de Cognac - Qualification: 626b/2FCOM/CONDUCTEUR MECANICIEN-2FCOM - Code Postal : 16103",
+    "emailId": "19d71ae5e2b0e3e4",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "CO EQUIPE D 5X8",
+    "qualification": "626b/2FCOM CONDUCTEUR MECANICIEN-2FCOM",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-04-09 11:28:00",
+    "emailSubject": "PIXID - Agence n?: ZD-ZD - Randstad Cognac - Consultation terminee - VERALLIA France/Usine de Cognac - Qualification: 626b/2FCOM/CONDUCTEUR MECANICIEN-2FCOM - Code Postal : 16103",
+    "emailId": "19d71c461a3f60df",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
