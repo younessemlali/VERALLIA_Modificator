@@ -20084,5 +20084,19 @@
     "emailId": "19d85a6647452fe3",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000964",
+    "numeroContrat": null,
+    "codePoste": "6QUCD165",
+    "codeCycle": "LA EQUIPE D 5X8",
+    "qualification": "626b/6QUCD165 CONTROLEUR-6QUCD-165.1",
+    "client": "VERALLIA",
+    "dateDebut": "16/04/2026",
+    "dateExtraction": "2026-04-13 13:38:34",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6QUCD165/CONTROLEUR-6QUCD-165.1 - Code Postal: 01150",
+    "emailId": "19d86a3009dd467c",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
