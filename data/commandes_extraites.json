@@ -20252,5 +20252,33 @@
     "emailId": "19d96e235b76a254",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000984",
+    "numeroContrat": null,
+    "codePoste": "6FACO155",
+    "codeCycle": "LA EQUIPE B 5X8",
+    "qualification": "626b/6FACO155 CONDUCTEUR MECANICIEN INTERIM-6FACO-155",
+    "client": "VERALLIA",
+    "dateDebut": "20/04/2026",
+    "dateExtraction": "2026-04-16 18:50:33",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6FACO155/CONDUCTEUR MECANICIEN INTERIM-6FACO-155 - Code Postal: 01150",
+    "emailId": "19d97d3e18718eb8",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001521",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE B 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "17/04/2026",
+    "dateExtraction": "2026-04-16 16:47:28",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "19d97ce4b13f9418",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
