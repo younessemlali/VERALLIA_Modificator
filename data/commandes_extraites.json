@@ -20700,5 +20700,33 @@
     "emailId": "19daa0186dcc6c62",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000003",
+    "numeroContrat": null,
+    "codePoste": "3VAEM",
+    "codeCycle": "SRP 15H30",
+    "qualification": "628b/3VAEM ELECTROMECANICIEN-3VAEM",
+    "client": "VERALLIA",
+    "dateDebut": "20/04/2026",
+    "dateExtraction": "2026-04-20 11:47:21",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VM2 - Qualification: 628b/3VAEM/ELECTROMECANICIEN-3VAEM - Code Postal: 42610",
+    "emailId": "19daa49a185ebad6",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001527",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE D 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "20/04/2026",
+    "dateExtraction": "2026-04-20 11:39:53",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "19daa42d1c779a39",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
