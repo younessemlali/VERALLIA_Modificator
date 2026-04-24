@@ -21204,5 +21204,47 @@
     "emailId": "19dbed51b6b5cd6b",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001554",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE B 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "26/04/2026",
+    "dateExtraction": "2026-04-24 10:00:37",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "19dbf1184817154a",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "CO EQUIPE C 5X8",
+    "qualification": "626b/2FCOM CONDUCTEUR MECANICIEN-2FCOM",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-04-24 09:42:43",
+    "emailSubject": "PIXID - Agence n?: ZD-ZD - Randstad Cognac - Consultation terminee - VERALLIA France/Usine de Cognac - Qualification: 626b/2FCOM/CONDUCTEUR MECANICIEN-2FCOM - Code Postal : 16103",
+    "emailId": "19dbf088611366f5",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001049",
+    "numeroContrat": null,
+    "codePoste": "6RENQ165",
+    "codeCycle": "LA EQUIPE C 5X8",
+    "qualification": "626b/6RENQ165 RENFORT QUALITE-6RENQUA-165.1",
+    "client": "VERALLIA",
+    "dateDebut": "27/04/2026",
+    "dateExtraction": "2026-04-24 08:54:49",
+    "emailSubject": "PIXID - Suppression de Commande - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6RENQ165/RENFORT QUALITE-6RENQUA-165.1 - Code Postal: 01150",
+    "emailId": "19dbf06bd37e730b",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
