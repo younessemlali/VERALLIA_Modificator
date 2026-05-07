@@ -22030,5 +22030,47 @@
     "emailId": "19e01067b87f0225",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002299",
+    "numeroContrat": null,
+    "codePoste": "2FCOM",
+    "codeCycle": "CO EQUIPE A 5X8",
+    "qualification": "626b/2FCOM CONDUCTEUR MECANICIEN-2FCOM",
+    "client": "VERALLIA",
+    "dateDebut": "04/05/2026",
+    "dateExtraction": "2026-05-07 10:17:36",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Cognac - Agence n? ZD - Qualification: 626b/2FCOM/CONDUCTEUR MECANICIEN-2FCOM - Code Postal: 16103",
+    "emailId": "19e01839a0f5f878",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "002300",
+    "numeroContrat": null,
+    "codePoste": "2FCOM",
+    "codeCycle": "CO EQUIPE A 5X8",
+    "qualification": "626b/2FCOM CONDUCTEUR MECANICIEN-2FCOM",
+    "client": "VERALLIA",
+    "dateDebut": "04/05/2026",
+    "dateExtraction": "2026-05-07 10:19:17",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Cognac - Agence n? ZD - Qualification: 626b/2FCOM/CONDUCTEUR MECANICIEN-2FCOM - Code Postal: 16103",
+    "emailId": "19e01852c9ac8342",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001263",
+    "numeroContrat": null,
+    "codePoste": "6QUCD165",
+    "codeCycle": "LA EQUIPE E 5X8",
+    "qualification": "626b/6QUCD165 CONTROLEUR-6QUCD-165.1",
+    "client": "VERALLIA",
+    "dateDebut": "11/05/2026",
+    "dateExtraction": "2026-05-07 10:16:07",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6QUCD165/CONTROLEUR-6QUCD-165.1 - Code Postal: 01150",
+    "emailId": "19e01823cf97cd8e",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
