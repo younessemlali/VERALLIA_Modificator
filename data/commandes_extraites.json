@@ -22884,5 +22884,33 @@
     "emailId": "19e15d9e6b8db32d",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001306",
+    "numeroContrat": null,
+    "codePoste": "6QUCD165",
+    "codeCycle": "LA EQUIPE C 5X8",
+    "qualification": "626b/6QUCD165 CONTROLEUR-6QUCD-165.1",
+    "client": "VERALLIA",
+    "dateDebut": "17/05/2026",
+    "dateExtraction": "2026-05-11 15:29:27",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6QUCD165/CONTROLEUR-6QUCD-165.1 - Code Postal: 01150",
+    "emailId": "19e175217a138da2",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001303",
+    "numeroContrat": null,
+    "codePoste": "6OPCA165",
+    "codeCycle": "LA EQUIPE C 5X8",
+    "qualification": "626b/6OPCA165 OPERATEUR COND AUTOMATIQUE-6OPCA-165.1",
+    "client": "VERALLIA",
+    "dateDebut": "14/05/2026",
+    "dateExtraction": "2026-05-11 14:58:21",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6OPCA165/OPERATEUR COND AUTOMATIQUE-6OPCA-165.1 - Code Postal: 01150",
+    "emailId": "19e172f3271b43c4",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
