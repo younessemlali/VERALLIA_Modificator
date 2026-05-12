@@ -22940,5 +22940,19 @@
     "emailId": "19e1bc6ec3509db2",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001333",
+    "numeroContrat": null,
+    "codePoste": "6OPCA",
+    "codeCycle": "LA EQUIPE A 5X8",
+    "qualification": "626b/6OPCA155 OPERATEUR COND AUTOMATIQUE-6OPCA-155",
+    "client": "VERALLIA",
+    "dateDebut": "18/05/2026",
+    "dateExtraction": "2026-05-12 18:19:38",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6OPCA155/OPERATEUR COND AUTOMATIQUE-6OPCA-155 - Code Postal: 01150",
+    "emailId": "19e1d14272873d90",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
