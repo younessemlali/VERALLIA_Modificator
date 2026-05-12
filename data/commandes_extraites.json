@@ -22926,5 +22926,19 @@
     "emailId": "19e188ec59612fa6",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001330",
+    "numeroContrat": null,
+    "codePoste": "6RENQ165",
+    "codeCycle": "LA EQUIPE B 5X8",
+    "qualification": "626b/6RENQ165 RENFORT QUALITE-6RENQUA-165.1",
+    "client": "VERALLIA",
+    "dateDebut": "16/05/2026",
+    "dateExtraction": "2026-05-12 12:19:05",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6RENQ165/RENFORT QUALITE-6RENQUA-165.1 - Code Postal: 01150",
+    "emailId": "19e1bc6ec3509db2",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
