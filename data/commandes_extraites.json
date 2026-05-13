@@ -23052,5 +23052,33 @@
     "emailId": "19e22e6bc58f65be",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001354",
+    "numeroContrat": null,
+    "codePoste": "6CAEX",
+    "codeCycle": "LAGNIEU 16H15",
+    "qualification": "652a/6CAEX165 CARISTE EXPEDITION",
+    "client": "VERALLIA",
+    "dateDebut": "18/05/2026",
+    "dateExtraction": "2026-05-13 15:04:56",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 652a/6CAEX165/CARISTE EXPEDITION - Code Postal: 01150",
+    "emailId": "19e23181b9c9a224",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001715",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE B 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "20/05/2026",
+    "dateExtraction": "2026-05-13 21:45:21",
+    "emailSubject": "PIXID - modification de  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "19e230d09a8874d2",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
