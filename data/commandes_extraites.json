@@ -23948,5 +23948,19 @@
     "emailId": "19e4b35ee9d11833",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000007",
+    "numeroContrat": null,
+    "codePoste": "3FACO",
+    "codeCycle": "SR EQUIPE A 5*8",
+    "qualification": "626b/3FACO CONDUCTEUR MECANICIEN-3FACO",
+    "client": "VERALLIA",
+    "dateDebut": "27/05/2026",
+    "dateExtraction": "2026-05-21 16:53:37",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VM2 - Qualification: 626b/3FACO/CONDUCTEUR MECANICIEN-3FACO - Code Postal: 42610",
+    "emailId": "19e4b4606ed74461",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
