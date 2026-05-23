@@ -24298,5 +24298,19 @@
     "emailId": "19e55c84ab2f71a5",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CARISTE",
+    "codeCycle": "OUVRIER 36H45 7h30",
+    "qualification": "652a/6CAEX165 CARISTE EXPEDITION",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-05-23 18:04:56",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 652a/6CAEX165/CARISTE EXPEDITION - Code Postal : 01150",
+    "emailId": "19e562b3dd5b2312",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
