@@ -24522,5 +24522,33 @@
     "emailId": "19e6f7548275468c",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001784",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE A 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "31/05/2026",
+    "dateExtraction": "2026-05-28 11:58:21",
+    "emailSubject": "PIXID - modification de  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "19e6ff1d7c3862f3",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "RENFORT",
+    "codeCycle": "OUVRIER 36H45 7h30",
+    "qualification": "626b/6RENQ155 RENFORT QUALITE-6RENQUA-155",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-05-28 20:34:32",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6RENQ155/RENFORT QUALITE-6RENQUA-155 - Code Postal : 01150",
+    "emailId": "19e6fde0c82a42dd",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
