@@ -2168,5 +2168,33 @@
     "emailId": "19edba3512a79e41",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001954",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE B 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "19/06/2026",
+    "dateExtraction": "2026-06-18 16:29:36",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "19edbd6a86d43eb1",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "MANUTENTIONNAIRE",
+    "codeCycle": "OUVRIER 36H45 8H",
+    "qualification": "652a/3MANU155 MANUTENTIONNAIRE-3MANU-155TS",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-06-18 13:23:50",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 652a/3MANU155/MANUTENTIONNAIRE-3MANU-155TS - Code Postal : 42610",
+    "emailId": "19edbcf4de020c5c",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
