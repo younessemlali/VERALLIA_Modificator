@@ -2728,5 +2728,33 @@
     "emailId": "19eedfe16bfc64b4",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "001764",
+    "numeroContrat": null,
+    "codePoste": "6OPCA",
+    "codeCycle": "LA EQUIPE E 5X8",
+    "qualification": "626b/6OPCA155 OPERATEUR COND AUTOMATIQUE-6OPCA-155",
+    "client": "VERALLIA",
+    "dateDebut": "24/06/2026",
+    "dateExtraction": "2026-06-22 09:31:08",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6OPCA155/OPERATEUR COND AUTOMATIQUE-6OPCA-155 - Code Postal: 01150",
+    "emailId": "19eee3db7095fadc",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "001988",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE D 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "21/06/2026",
+    "dateExtraction": "2026-06-22 09:03:22",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "19eee242fbff5d9b",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
