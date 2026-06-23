@@ -2840,5 +2840,19 @@
     "emailId": "19ef0b86e9535990",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000063",
+    "numeroContrat": null,
+    "codePoste": "3MAME",
+    "codeCycle": "SRP 16H",
+    "qualification": "626b/3MAME MECANICIEN D'ENTRETIEN-3MAME",
+    "client": "VERALLIA",
+    "dateDebut": "22/06/2026",
+    "dateExtraction": "2026-06-22 17:22:39",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 626b/3MAME/MECANICIEN D'ENTRETIEN-3MAME - Code Postal: 42610",
+    "emailId": "19ef1c911050b72c",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
