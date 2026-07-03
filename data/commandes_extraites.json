@@ -4800,5 +4800,19 @@
     "emailId": "19f28c3e8dd2cc8b",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000107",
+    "numeroContrat": null,
+    "codePoste": "3VICS",
+    "codeCycle": "SR EQUIPE A 5*8",
+    "qualification": "652a/3VICS OPERATEUR QUALITE CONDITIONNEMENT-3VICS",
+    "client": "VERALLIA",
+    "dateDebut": "05/07/2026",
+    "dateExtraction": "2026-07-03 15:06:51",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 652a/3VICS/OPERATEUR QUALITE CONDITIONNEMENT-3VICS - Code Postal: 42610",
+    "emailId": "19f29510acf6e4ae",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
