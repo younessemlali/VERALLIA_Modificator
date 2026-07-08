@@ -5318,5 +5318,33 @@
     "emailId": "19f40688963358fd",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000124",
+    "numeroContrat": null,
+    "codePoste": "3MAME",
+    "codeCycle": "SRP 16H",
+    "qualification": "626b/3MAME MECANICIEN D'ENTRETIEN-3MAME",
+    "client": "VERALLIA",
+    "dateDebut": "13/07/2026",
+    "dateExtraction": "2026-07-08 09:02:48",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 626b/3MAME/MECANICIEN D'ENTRETIEN-3MAME - Code Postal: 42610",
+    "emailId": "19f40b3b826cd1c3",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "002130",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE E 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "09/07/2026",
+    "dateExtraction": "2026-07-08 08:29:28",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "19f40a31fcc3d9bf",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
