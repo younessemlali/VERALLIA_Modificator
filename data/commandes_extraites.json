@@ -5584,5 +5584,19 @@
     "emailId": "19f43e09789925ff",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000125",
+    "numeroContrat": null,
+    "codePoste": "3ASSLO",
+    "codeCycle": "SRP 16H",
+    "qualification": "461b/3ASSLO ASSISTANT LOGISTIQUE-3ASSLO",
+    "client": "VERALLIA",
+    "dateDebut": "09/07/2026",
+    "dateExtraction": "2026-07-08 16:50:04",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 461b/3ASSLO/ASSISTANT LOGISTIQUE-3ASSLO - Code Postal: 42610",
+    "emailId": "19f43fa27dcabe11",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
