@@ -5346,5 +5346,33 @@
     "emailId": "19f40a31fcc3d9bf",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002128",
+    "numeroContrat": null,
+    "codePoste": "4VIFR",
+    "codeCycle": "VA EQUIPE E 5X8",
+    "qualification": "652a/4VIFR CARISTE BF-4VIFR",
+    "client": "VERALLIA",
+    "dateDebut": "09/07/2026",
+    "dateExtraction": "2026-07-08 08:21:58",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 652a/4VIFR/CARISTE BF-4VIFR - Code Postal: 02880",
+    "emailId": "19f40e8bceb89dfe",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "002126",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE C 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "08/07/2026",
+    "dateExtraction": "2026-07-08 08:32:00",
+    "emailSubject": "PIXID - modification de  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "19f40d63defd7bee",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
