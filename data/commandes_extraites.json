@@ -6018,5 +6018,19 @@
     "emailId": "19f4c9e3c74e4871",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000145",
+    "numeroContrat": null,
+    "codePoste": "3MANU155",
+    "codeCycle": "SR EQUIPE D 5X8",
+    "qualification": "652a/3MANU155 MANUTENTIONNAIRE-3MANU-155TS",
+    "client": "VERALLIA",
+    "dateDebut": "16/07/2026",
+    "dateExtraction": "2026-07-10 14:36:35",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 652a/3MANU155/MANUTENTIONNAIRE-3MANU-155TS - Code Postal: 42610",
+    "emailId": "19f4d0a4c0e974a8",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
