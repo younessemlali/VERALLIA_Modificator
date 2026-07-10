@@ -5906,5 +5906,19 @@
     "emailId": "19f4b1f6e718fb67",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002168",
+    "numeroContrat": null,
+    "codePoste": "4VIFR",
+    "codeCycle": "VA EQUIPE E 5X8",
+    "qualification": "652a/4VIFR CARISTE BF-4VIFR",
+    "client": "VERALLIA",
+    "dateDebut": "12/07/2026",
+    "dateExtraction": "2026-07-10 10:37:22",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 652a/4VIFR/CARISTE BF-4VIFR - Code Postal: 02880",
+    "emailId": "19f4b969c40a32d8",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
