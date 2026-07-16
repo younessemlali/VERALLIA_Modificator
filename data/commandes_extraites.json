@@ -7306,5 +7306,19 @@
     "emailId": "19f69b7319dd5593",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002200",
+    "numeroContrat": null,
+    "codePoste": "4SACH",
+    "codeCycle": "VAUXROT 15H21",
+    "qualification": "652a/4SACH CARISTE JOUR-4SACH",
+    "client": "VERALLIA",
+    "dateDebut": "20/07/2026",
+    "dateExtraction": "2026-07-16 10:24:45",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 652a/4SACH/CARISTE JOUR-4SACH - Code Postal: 02880",
+    "emailId": "19f6a237eb629cda",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
