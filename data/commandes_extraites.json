@@ -7824,5 +7824,19 @@
     "emailId": "19f84339cb094ce2",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "CO EQUIPE E 5X8",
+    "qualification": "626b/2FCOM CONDUCTEUR MECANICIEN-2FCOM",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-07-21 09:40:29",
+    "emailSubject": "PIXID - Agence n?: ZD-ZD - Randstad Cognac - Consultation terminee - VERALLIA France/Usine de Cognac - Qualification: 626b/2FCOM/CONDUCTEUR MECANICIEN-2FCOM - Code Postal : 16103",
+    "emailId": "19f84a1946d0145a",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
