@@ -7796,5 +7796,33 @@
     "emailId": "19f840d0b6ba0e61",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONTROLEUR",
+    "codeCycle": "LA EQUIPE C 5X8",
+    "qualification": "626b/6QUCD165 CONTROLEUR-6QUCD-165.1",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-07-21 09:40:10",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6QUCD165/CONTROLEUR-6QUCD-165.1 - Code Postal : 01150",
+    "emailId": "19f844ef1de8eb59",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "OPERATEUR",
+    "codeCycle": "SR EQUIPE C 5X8",
+    "qualification": "652a/3VICS OPERATEUR QUALITE CONDITIONNEMENT-3VICS",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-07-21 09:40:33",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 652a/3VICS/OPERATEUR QUALITE CONDITIONNEMENT-3VICS - Code Postal : 42610",
+    "emailId": "19f84339cb094ce2",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
