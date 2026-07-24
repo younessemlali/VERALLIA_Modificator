@@ -8244,5 +8244,19 @@
     "emailId": "19f953b833625fda",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000244",
+    "numeroContrat": null,
+    "codePoste": "3VAEM",
+    "codeCycle": "SRP 15H30",
+    "qualification": "628b/3VAEM ELECTROMECANICIEN-3VAEM",
+    "client": "VERALLIA",
+    "dateDebut": "03/08/2026",
+    "dateExtraction": "2026-07-24 17:50:21",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 628b/3VAEM/ELECTROMECANICIEN-3VAEM - Code Postal: 42610",
+    "emailId": "19f9577eee324d45",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
