@@ -8216,5 +8216,33 @@
     "emailId": "19f94de02ce636a2",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000230",
+    "numeroContrat": null,
+    "codePoste": "3MANU145",
+    "codeCycle": "SR EQUIPE A 5*8",
+    "qualification": "652a/3MANU145 MANUTENTIONNAIRE-3MANU-145TS",
+    "client": "VERALLIA",
+    "dateDebut": "29/07/2026",
+    "dateExtraction": "2026-07-24 16:44:34",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 652a/3MANU145/MANUTENTIONNAIRE-3MANU-145TS - Code Postal: 42610",
+    "emailId": "19f9540d469e86d0",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "000246",
+    "numeroContrat": null,
+    "codePoste": "3AMEC",
+    "codeCycle": "SRP 15H30",
+    "qualification": "626b/3AMEC Aide m?canicien",
+    "client": "VERALLIA",
+    "dateDebut": "10/08/2026",
+    "dateExtraction": "2026-07-24 18:01:34",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 626b/3AMEC/Aide m?canicien - Code Postal: 42610",
+    "emailId": "19f953b833625fda",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
