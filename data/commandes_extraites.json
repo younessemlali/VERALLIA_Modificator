@@ -10246,5 +10246,19 @@
     "emailId": "19fccd50b8cf07d5",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002300",
+    "numeroContrat": null,
+    "codePoste": "6CAEX",
+    "codeCycle": "LAGNIEU 16H15",
+    "qualification": "652a/6CAEX165 CARISTE EXPEDITION",
+    "client": "VERALLIA",
+    "dateDebut": "26/08/2026",
+    "dateExtraction": "2026-08-04 14:18:52",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 652a/6CAEX165/CARISTE EXPEDITION - Code Postal: 01150",
+    "emailId": "19fcd20063bd6e7c",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
