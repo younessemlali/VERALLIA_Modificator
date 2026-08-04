@@ -10204,5 +10204,19 @@
     "emailId": "19fcbc9d9bda6dfb",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000257",
+    "numeroContrat": null,
+    "codePoste": "3VIAQ",
+    "codeCycle": "SR EQUIPE B 5X8",
+    "qualification": "626b/3VIAQ AGENT QUALITE REGLEUR-3VIAQ",
+    "client": "VERALLIA",
+    "dateDebut": "14/08/2026",
+    "dateExtraction": "2026-08-04 11:53:51",
+    "emailSubject": "PIXID - Suppression de Commande - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 626b/3VIAQ/AGENT QUALITE REGLEUR-3VIAQ - Code Postal: 42610",
+    "emailId": "19fcc4dbf0dafda5",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
