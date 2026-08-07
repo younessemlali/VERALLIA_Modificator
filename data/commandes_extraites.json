@@ -10344,5 +10344,19 @@
     "emailId": "19fdb79338c0e517",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000265",
+    "numeroContrat": null,
+    "codePoste": "3FAAF",
+    "codeCycle": "SR EQUIPE E 5X8",
+    "qualification": "626b/3FAAF AGENT FEEDER-3FAAF",
+    "client": "VERALLIA",
+    "dateDebut": "10/08/2026",
+    "dateExtraction": "2026-08-07 10:57:33",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 626b/3FAAF/AGENT FEEDER-3FAAF - Code Postal: 42610",
+    "emailId": "19fdbbef8027a940",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
