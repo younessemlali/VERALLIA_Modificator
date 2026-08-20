@@ -12626,5 +12626,19 @@
     "emailId": "1a019902b96a0a6a",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "SR EQUIPE C 5X8",
+    "qualification": "626b/3FACO CONDUCTEUR MECANICIEN-3FACO",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-08-20 09:00:31",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 626b/3FACO/CONDUCTEUR MECANICIEN-3FACO - Code Postal : 42610",
+    "emailId": "1a01e25d1d7096f6",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
