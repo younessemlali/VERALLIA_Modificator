@@ -12808,5 +12808,19 @@
     "emailId": "1a01f907877780a0",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "AGENT",
+    "codeCycle": "OUVRIER 36H45 7H",
+    "qualification": "626b/3FAAF AGENT FEEDER-3FAAF",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-08-20 09:00:38",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 626b/3FAAF/AGENT FEEDER-3FAAF - Code Postal : 42610",
+    "emailId": "1a02137d28a8d49b",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
