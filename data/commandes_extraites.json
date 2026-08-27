@@ -13354,5 +13354,19 @@
     "emailId": "1a03d50c6c58dc41",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "AGENT",
+    "codeCycle": "SR EQUIPE B 5X8",
+    "qualification": "626b/3VIAQ AGENT QUALITE REGLEUR-3VIAQ",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-08-27 09:48:22",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 626b/3VIAQ/AGENT QUALITE REGLEUR-3VIAQ - Code Postal : 42610",
+    "emailId": "1a0425d963181b3b",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
