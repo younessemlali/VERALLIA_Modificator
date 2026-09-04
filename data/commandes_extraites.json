@@ -13928,5 +13928,33 @@
     "emailId": "1a06b00e0b23cd1b",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "AIDE",
+    "codeCycle": "OUVRIER 36H45 8H",
+    "qualification": "626b/3AMEC Aide m?canicien",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-04 07:58:52",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 626b/3AMEC/Aide mecanicien - Code Postal : 42610",
+    "emailId": "1a06b5ebd1de0a75",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "AIDE",
+    "codeCycle": "OUVRIER 36H45 8H",
+    "qualification": "626b/3AMEC Aide m?canicien",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-04 07:58:48",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 626b/3AMEC/Aide mecanicien - Code Postal : 42610",
+    "emailId": "1a06b6425a7eceac",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
