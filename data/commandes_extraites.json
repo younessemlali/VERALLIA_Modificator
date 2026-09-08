@@ -14740,5 +14740,19 @@
     "emailId": "1a08230c251c1e5d",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "ELECTROMECANICIEN",
+    "codeCycle": "OUVRIER 36H45 8H",
+    "qualification": "628b/3VAEM ELECTROMECANICIEN-3VAEM",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-08 15:06:46",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 628b/3VAEM/ELECTROMECANICIEN-3VAEM - Code Postal : 42610",
+    "emailId": "1a083052a10b087f",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
