@@ -14656,5 +14656,33 @@
     "emailId": "1a08156e315761cb",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "AGENT",
+    "codeCycle": "SR EQUIPE C 5X8",
+    "qualification": "626b/3VIAQ AGENT QUALITE REGLEUR-3VIAQ",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-08 15:07:06",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 626b/3VIAQ/AGENT QUALITE REGLEUR-3VIAQ - Code Postal : 42610",
+    "emailId": "1a08195327250a3d",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "MECANICIEN",
+    "codeCycle": "SRP 16H",
+    "qualification": "626b/3MAME MECANICIEN D'ENTRETIEN-3MAME",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-08 15:09:27",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 626b/3MAME/MECANICIEN D'ENTRETIEN-3MAME - Code Postal : 42610",
+    "emailId": "1a0818c37cf23946",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
