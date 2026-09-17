@@ -15874,5 +15874,19 @@
     "emailId": "1a0b0e30def9e25f",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000333",
+    "numeroContrat": null,
+    "codePoste": "3AMEC",
+    "codeCycle": "SRP 16H",
+    "qualification": "626b/3AMEC Aide m?canicien",
+    "client": "VERALLIA",
+    "dateDebut": "21/09/2026",
+    "dateExtraction": "2026-09-17 16:58:24",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 626b/3AMEC/Aide m?canicien - Code Postal: 42610",
+    "emailId": "1a0b1041c9996468",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
