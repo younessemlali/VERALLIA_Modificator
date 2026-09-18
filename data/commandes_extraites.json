@@ -15930,5 +15930,33 @@
     "emailId": "1a0b40a7cfe430b3",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "SONDEUR",
+    "codeCycle": "VA EQUIPE A 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-18 11:45:21",
+    "emailSubject": "PIXID - Agence n?: SOI-SOI - SOISSONS - Consultation terminee - VERALLIA France/Usine de Vauxrot - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal : 02880",
+    "emailId": "1a0b4a458467c2e1",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "SONDEUR",
+    "codeCycle": "VA EQUIPE C 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-18 11:46:09",
+    "emailSubject": "PIXID - Agence n?: SOI-SOI - SOISSONS - Consultation terminee - VERALLIA France/Usine de Vauxrot - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal : 02880",
+    "emailId": "1a0b4cc6bd74aa08",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
