@@ -16056,5 +16056,33 @@
     "emailId": "1a0c32cda2970a58",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "AIDE",
+    "codeCycle": "SRP 16H",
+    "qualification": "626b/3AMEC Aide m?canicien",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-21 16:33:01",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 626b/3AMEC/Aide mecanicien - Code Postal : 42610",
+    "emailId": "1a0c462c4438c609",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "CO EQUIPE C 5X8",
+    "qualification": "626b/2FCOM CONDUCTEUR MECANICIEN-2FCOM",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-21 16:32:56",
+    "emailSubject": "PIXID - Agence n?: ZD-ZD - Randstad Cognac - Consultation terminee - VERALLIA France/Usine de Cognac - Qualification: 626b/2FCOM/CONDUCTEUR MECANICIEN-2FCOM - Code Postal : 16103",
+    "emailId": "1a0c462c106d9057",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
