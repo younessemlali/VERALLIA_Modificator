@@ -16168,5 +16168,33 @@
     "emailId": "1a0c8fe84601f71e",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000336",
+    "numeroContrat": null,
+    "codePoste": "3FAAF",
+    "codeCycle": "SRP 15H",
+    "qualification": "626b/3FAAF AGENT FEEDER-3FAAF",
+    "client": "VERALLIA",
+    "dateDebut": "23/09/2026",
+    "dateExtraction": "2026-09-22 17:26:45",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 626b/3FAAF/AGENT FEEDER-3FAAF - Code Postal: 42610",
+    "emailId": "1a0cac89105fc79d",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "000335",
+    "numeroContrat": null,
+    "codePoste": "3VAEM",
+    "codeCycle": "SRP 15H30",
+    "qualification": "628b/3VAEM ELECTROMECANICIEN-3VAEM",
+    "client": "VERALLIA",
+    "dateDebut": "21/09/2026",
+    "dateExtraction": "2026-09-22 17:21:27",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 628b/3VAEM/ELECTROMECANICIEN-3VAEM - Code Postal: 42610",
+    "emailId": "1a0cac317465f07a",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
