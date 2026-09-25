@@ -16546,5 +16546,19 @@
     "emailId": "1a0da590b0b7bc30",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "MANUTENTIONNAIRE",
+    "codeCycle": "SR EQUIPE D 5X8",
+    "qualification": "652a/3MANU155 MANUTENTIONNAIRE-3MANU-155TS",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-09-25 11:35:52",
+    "emailSubject": "PIXID - Agence n?: VMN-VMN - Randstad Savigneux - Consultation terminee - VERALLIA France/Usine de Saint Romain le Puy - Qualification: 652a/3MANU155/MANUTENTIONNAIRE-3MANU-155TS - Code Postal : 42610",
+    "emailId": "1a0dac178a7b66a8",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
