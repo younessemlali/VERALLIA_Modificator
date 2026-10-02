@@ -16924,5 +16924,33 @@
     "emailId": "1a0f98aa5d152b49",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002734",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE C 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "06/10/2026",
+    "dateExtraction": "2026-10-02 10:47:52",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "1a0fbfeb119395fa",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "002736",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE C 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "07/10/2026",
+    "dateExtraction": "2026-10-02 10:55:33",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "1a0fbe524cf65c5d",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
