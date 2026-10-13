@@ -17456,5 +17456,33 @@
     "emailId": "1a135ff3a14a943c",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002905",
+    "numeroContrat": null,
+    "codePoste": "6RENQ165",
+    "codeCycle": "LA EQUIPE E 5X8",
+    "qualification": "626b/6RENQ165 RENFORT QUALITE-6RENQUA-165.1",
+    "client": "VERALLIA",
+    "dateDebut": "19/09/2026",
+    "dateExtraction": "2026-10-12 13:38:59",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Lagnieu - Agence n? AMX - Qualification: 626b/6RENQ165/RENFORT QUALITE-6RENQUA-165.1 - Code Postal: 01150",
+    "emailId": "1a136ed1c1da08db",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "002815",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE E 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "14/10/2026",
+    "dateExtraction": "2026-10-13 13:20:13",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Vauxrot - Agence n? SOI - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "1a136df7562a347f",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
