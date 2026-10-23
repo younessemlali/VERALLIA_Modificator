@@ -18044,5 +18044,19 @@
     "emailId": "1a16400a915faaf0",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002879",
+    "numeroContrat": null,
+    "codePoste": "4VISR",
+    "codeCycle": "VA EQUIPE B 5X8",
+    "qualification": "628d/4VISR SONDEUR REGLEUR-4VISR",
+    "client": "VERALLIA",
+    "dateDebut": "24/10/2026",
+    "dateExtraction": "2026-10-23 09:09:28",
+    "emailSubject": "PIXID - Suppression de Commande - VERALLIA France/Usine de Vauxrot - Qualification: 628d/4VISR/SONDEUR REGLEUR-4VISR - Code Postal: 02880",
+    "emailId": "1a1679b63591b0c5",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
