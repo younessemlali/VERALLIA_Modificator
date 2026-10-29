@@ -18576,5 +18576,33 @@
     "emailId": "1a187b27b9ae9420",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "000357",
+    "numeroContrat": null,
+    "codePoste": "3FACO",
+    "codeCycle": "SR EQUIPE D 5X8",
+    "qualification": "626b/3FACO CONDUCTEUR MECANICIEN-3FACO",
+    "client": "VERALLIA",
+    "dateDebut": "30/10/2026",
+    "dateExtraction": "2026-10-29 11:50:56",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 626b/3FACO/CONDUCTEUR MECANICIEN-3FACO - Code Postal: 42610",
+    "emailId": "1a1880a3614bd8e6",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "000358",
+    "numeroContrat": null,
+    "codePoste": "3VIAQ",
+    "codeCycle": "SR EQUIPE E 5X8",
+    "qualification": "626b/3VIAQ AGENT QUALITE REGLEUR-3VIAQ",
+    "client": "VERALLIA",
+    "dateDebut": "02/11/2026",
+    "dateExtraction": "2026-10-29 14:29:58",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 626b/3VIAQ/AGENT QUALITE REGLEUR-3VIAQ - Code Postal: 42610",
+    "emailId": "1a18804b2aec0352",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
