@@ -18856,5 +18856,33 @@
     "emailId": "1a19d85e038a2839",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002941",
+    "numeroContrat": null,
+    "codePoste": "4FACO2",
+    "codeCycle": "VA EQUIPE E 5X8",
+    "qualification": "626b/4FACO2 CONDUCTEUR MECANICIEN-4FACO2",
+    "client": "VERALLIA",
+    "dateDebut": "03/11/2026",
+    "dateExtraction": "2026-11-02 13:10:26",
+    "emailSubject": "PIXID - Suppression de Commande - VERALLIA France/Usine de Vauxrot - Qualification: 626b/4FACO2/CONDUCTEUR MECANICIEN-4FACO2 - Code Postal: 02880",
+    "emailId": "1a19dc810717d634",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "000362",
+    "numeroContrat": null,
+    "codePoste": "3MAME",
+    "codeCycle": "SRP 16H",
+    "qualification": "626b/3MAME MECANICIEN D'ENTRETIEN-3MAME",
+    "client": "VERALLIA",
+    "dateDebut": "02/11/2026",
+    "dateExtraction": "2026-11-02 16:09:19",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Saint Romain le Puy - Agence n? VMN - Qualification: 626b/3MAME/MECANICIEN D'ENTRETIEN-3MAME - Code Postal: 42610",
+    "emailId": "1a19db05e90fc67a",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
