@@ -18842,5 +18842,19 @@
     "emailId": "1a19c68e08b445df",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "002958",
+    "numeroContrat": null,
+    "codePoste": "2MANU165",
+    "codeCycle": "COGNAC 16H30",
+    "qualification": "652a/2MANU165 MANUTENTIONNAIRE-2MANU165",
+    "client": "VERALLIA",
+    "dateDebut": "02/11/2026",
+    "dateExtraction": "2026-11-02 16:35:39",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Cognac - Agence n? ZD - Qualification: 652a/2MANU165/MANUTENTIONNAIRE-2MANU165 - Code Postal: 16103",
+    "emailId": "1a19d85e038a2839",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
