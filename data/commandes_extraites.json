@@ -18898,5 +18898,19 @@
     "emailId": "1a19df25edd0080c",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONTROLEUR",
+    "codeCycle": "LA EQUIPE A 5X8",
+    "qualification": "626b/6QUCD165 CONTROLEUR-6QUCD-165.1",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-11-03 01:51:43",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6QUCD165/CONTROLEUR-6QUCD-165.1 - Code Postal : 01150",
+    "emailId": "1a19f7a03a4a2e5e",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
