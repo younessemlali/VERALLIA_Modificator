@@ -19276,5 +19276,33 @@
     "emailId": "1a1c21abcc47958a",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "CONDUCTEUR",
+    "codeCycle": "CO EQUIPE C 5X8",
+    "qualification": "626b/2FCOM CONDUCTEUR MECANICIEN-2FCOM",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-11-10 09:41:46",
+    "emailSubject": "PIXID - Agence n?: ZD-ZD - Randstad Cognac - Consultation terminee - VERALLIA France/Usine de Cognac - Qualification: 626b/2FCOM/CONDUCTEUR MECANICIEN-2FCOM - Code Postal : 16103",
+    "emailId": "1a1c4a16821d11ad",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": "002991",
+    "numeroContrat": null,
+    "codePoste": "2PILOT",
+    "codeCycle": "CO EQUIPE D 5X8",
+    "qualification": "628d/2PILOT PILOTE DE LIGNE-2PILOT",
+    "client": "VERALLIA",
+    "dateDebut": "10/11/2026",
+    "dateExtraction": "2026-11-10 08:10:52",
+    "emailSubject": "PIXID -  Commande - VERALLIA France/Usine de Cognac - Agence n? ZD - Qualification: 628d/2PILOT/PILOTE DE LIGNE-2PILOT - Code Postal: 16103",
+    "emailId": "1a1c483db5b783b8",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
