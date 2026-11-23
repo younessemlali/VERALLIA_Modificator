@@ -19892,5 +19892,33 @@
     "emailId": "1a2089209788c8fa",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "RENFORT",
+    "codeCycle": "OUVRIER 36H45 7h30",
+    "qualification": "626b/6RENQ155 RENFORT QUALITE-6RENQUA-155",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-11-23 12:38:49",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6RENQ155/RENFORT QUALITE-6RENQUA-155 - Code Postal : 01150",
+    "emailId": "1a208ce24d418624",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
+  },
+  {
+    "numeroCommande": null,
+    "numeroContrat": null,
+    "codePoste": "RENFORT",
+    "codeCycle": "OUVRIER 36H45 7h30",
+    "qualification": "626b/6RENQ155 RENFORT QUALITE-6RENQUA-155",
+    "client": "VERALLIA",
+    "dateDebut": null,
+    "dateExtraction": "2026-11-23 12:38:46",
+    "emailSubject": "PIXID - Agence n?: AMX-AMX - Randstad Chateau Gaillard - Consultation terminee - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6RENQ155/RENFORT QUALITE-6RENQUA-155 - Code Postal : 01150",
+    "emailId": "1a208d3a279fbe62",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
