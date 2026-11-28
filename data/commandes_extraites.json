@@ -20284,5 +20284,19 @@
     "emailId": "1a21dfbe1ea1a4d2",
     "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
     "version": "2.1"
+  },
+  {
+    "numeroCommande": "003328",
+    "numeroContrat": null,
+    "codePoste": "6RENQ155",
+    "codeCycle": "LAGNIEU 16H15",
+    "qualification": "626b/6RENQ155 RENFORT QUALITE-6RENQUA-155",
+    "client": "VERALLIA",
+    "dateDebut": "26/11/2026",
+    "dateExtraction": "2026-11-27 11:00:36",
+    "emailSubject": "PIXID - Suppression de Commande - VERALLIA France/Usine de Lagnieu - Qualification: 626b/6RENQ155/RENFORT QUALITE-6RENQUA-155 - Code Postal: 01150",
+    "emailId": "1a22281673dfe822",
+    "emailFrom": "\"Pl@teforme PIXID\" <ne-pas-repondre@pixid.fr>",
+    "version": "2.1"
   }
 ]
